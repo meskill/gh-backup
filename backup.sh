@@ -1,5 +1,10 @@
 #! /usr/bin/env nu
 
+# TODO:
+# - allow to run script from windows host
+# - update ghorg version
+# - migrate to new fine-grained tokens on Github
+
 let gh_token = (input -s "Input Github Personal Access Token: ")
 
 print "\nCloning all the repos from github to local folder"
